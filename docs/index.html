@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>e_commerce-data-analysis-ara</title>
+
+    <style>
+        .hidden { display: none; }
+        body, html {
+            margin: 10px;
+            padding: 0;
+            height: 100%;
+            position: relative;
+        }
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding-top: 75px;
+        }
+        .image-wrapper {
+            max-width: 100%;
+        }
+        .image {
+            width: 100%;
+            height: auto;
+        }
+        h1{
+            text-align: center;
+        }
+        .link {
+            text-decoration: none;
+            color: blue;
+            font-weight: bold;
+        }
+        .link:hover {
+            text-decoration: underline;
+        }
+        .footer {
+            position: fixed;
+            bottom: 0; 
+            left: 0;
+            width: 100%;
+            background-color: rgba(255, 255, 255, 0.5); 
+            text-align: center;
+            padding: 1px 0; 
+            box-shadow: 0 -2px 5px rgba(0,0,0,0.1); 
+            box-shadow: 0 -5px 5px rgba(0, 0, 0, 0.1);
+            color: #333;
+        }
+        .caption {
+            max-width: 50%;
+            text-align: justify;
+            padding-left: 10px;
+        }
+        .divv {
+            padding-top: 75px;
+            text-align: justify;
+        }
+        .dashed-line {
+            width: 100%;
+            border-top: 2px dashed #333; /* ketebalan dan gaya garis */
+            margin: 5px; /* jarak antara dua garis */
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Analisis Data E-Commerce</h1>
+
+    <p style="text-align: center; padding-bottom: 50px;">Halaman ini berisi tampilan grafik yang dihasilkan dari baris kode yang dapat dilihat pada
+        <a href="https://github.com/ImtiyasAzzahra/e_commerce-data-analysis/blob/master/e_commerce-data-analysis-ara.ipynb" 
+        class="link" target="_blank">halaman berikut</a>, enjoy!
+    </p>
+
+    <div class="dashed-lines">
+        <div class="dashed-line"></div>
+        <div class="dashed-line"></div>
+    </div>
+
+    <div style="padding-top: 75px; text-align: justify;">
+        <p>Grafik berikut menjelaskan perkembangan penjualan secara tahunan, bulanan, serta harian. 
+            Dari grafik yang disajikan, terlihat pola dimana, perkembangan penjualan mengalami penurunan berdasarkan tahun.
+            Sedangkan berdasarkan bulan maupun hari, tidak memiliki pola yang begitu signifikan.</p>
+    </div>
+    <div class="image-wrapper">
+        <img class="image" src="g_1.png" alt="Gambar" />          
+    </div>
+
+
+    <div style="padding-top: 75px; text-align: justify;">
+        <p>Rincian dari perkembangan penjualan tahunan pada grafik sebelumnya dapat dilihat pada grafik dibawah ini.</p>
+    </div>
+    <div class="image-wrapper">
+        <img class="image" src="g_2.png" alt="Gambar" />          
+    </div>
+
+    <div class="container">        
+        <div class="image-wrapper">
+          <img class="image" src="g_3.png" alt="Gambar" />          
+        </div>
+        <div class="caption">
+            <p>Grafik disamping menjelaskan perkembangan penjualan selama satu minggu diawal Januari 2020, 
+                yang terhitung sejak 6 hingga 12 Januari 2020. Dimana, tidak terlihat pola tertentu darinya.</p>
+        </div>
+    </div>
+
+    <div style="padding-top: 75px; text-align: justify;">
+        <p>Berikut merupakan grafik yang menunjukkan korelasi antara metode pembayaran yang digunakan berdasarkan total belanja yang dihasilkan.</p>
+    </div>
+    <div class="image-wrapper">
+        <img class="image" src="g_4.png" alt="Gambar" />          
+    </div>
+
+    <div style="padding-top: 75px; text-align: justify;">
+        <p>Selanjutnya merupakan grafik yang menjelaskan pola keterlambatan pengiriman pada pesanan secara tahunan, bulanan, serta harian.
+            Dari grafik yang disajikan, terlihat bahwa tahun 2021 menjadi tahun dengan keterlambatan pengiriman pesanan tertinggi. 
+            Sedangkan berdasarkan hari, terlihat bahwa hari Jumat menjadi hari dengan keterlambatan pengiriman pesanan tertinggi.</p>
+    </div>
+    <div class="image-wrapper">
+        <img class="image" src="g_5.png" alt="Gambar" />          
+    </div>    
+
+    <div style="padding-top: 75px; text-align: justify;">
+        <p>Rincian dari pola keterlambatan pengiriman pada pesanan secara tahunan pada grafik sebelumnya dapat dilihat pada grafik dibawah ini.</p>
+    </div>
+    <div class="image-wrapper">
+        <img class="image" src="g_6.png" alt="Gambar" style="padding-bottom: 65px;" />          
+    </div>     
+
+    <div class="footer">
+        <p>©2024 Ara
+            <br>Analisis Data E-Commerce</p>
+    </div>
+</body>
+</html>
